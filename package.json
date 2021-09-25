@@ -1,0 +1,41 @@
+{
+  "name": "@makepad/instajs",
+  "version": "0.0.1",
+  "description": "A toolkit to create Instagram bots using TypeScript or NodeJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "node_modules/typescript/bin/tsc",
+    "prestart": "npm run compile",
+    "start": "node dist/index.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Makepad-fr/instajs.git"
+  },
+  "keywords": [
+    "Automation",
+    "Scraper",
+    "Instagram",
+    "Puppeteer",
+    "Social",
+    "Media",
+    "Bot",
+    "TypeScript",
+    "Data",
+    "mining",
+    "Crawler"
+  ],
+  "author": "Makepad Developers <dev@makepad.fr>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Makepad-fr/instajs/issues"
+  },
+  "homepage": "https://github.com/Makepad-fr/instajs#readme",
+  "dependencies": {
+    "puppeteer": "^10.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
