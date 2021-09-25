@@ -1,5 +1,5 @@
 configfilepath: /Users/kaanyagci/Documents/Makepad/instajs/.concom.yml
-path: ""
+path: /Users/kaanyagci/Documents/Makepad/instajs
 version: ""
 scopes:
     - name: package
@@ -14,6 +14,8 @@ scopes:
       description: Related to comments
     - name: linter
       description: Related to linter
+    - name: config
+      description: All related to the configuration
 conventions:
     - name: build
       description: Changes that affect the build system or external dependencies
